@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #d5cedb; 
+    color: #333;
+}
+
+
+.navbar {
+    display: flex; /* Bach dak contenu lighykun fnav bar ykuno des elelments successif whd hda lakhor , maykunch dakxi mkharba9*/
+    justify-content: space-between;   /*Bach ykuno f janb l yemin w janb l yassar*/
+    align-items: center;
+    padding: 20px 80px; 
+    background-color: rgb(236, 231, 231);
+}
+.navlinks a:hover {
+    color: #495358; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: normal; 
+    color: #372f3d;
+    
+    font-family: 'Pacifico', cursive; 
+}
+
+.navlinks a {
+    text-decoration: none; 
+    color: #333;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+
+
+
+
+.hero-section {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    padding: 80px 80px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.hero-content {
+    flex: 1; 
+    max-width: 50%; 
+}
+
+.greeting {
+    color: #0a0a0a;
+    font-weight: bold;
+     margin-bottom: 5px;
+}
+
+ h1 {
+    font-size: 48px;
+    margin: 10px 0 20px 0;
+    line-height: 1.2;
+}
+
+h1 strong {
+    color: #0a0a0a; 
+}
+
+.intro-text {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+
+.image {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-image {
+    width: 350px;
+    height: 380px;
+    border-radius: 24.5%; 
+    object-fit: cover; 
+    box-shadow: 0 0 0 2px #0a0a0a;
+    transition: transform 0.4s ease, box-shadow 0.4s ease; 
+}
+
+.hero-image:hover {
+   
+    transform: scale(1.03); 
+   
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); 
+}
+
+
+
+.buttons a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.4s;
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background-color:#0a0a0a; 
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #0a0a0a;
+    border: 2px solid #7b7474; 
+}
+.btn-primary:hover {
+    background-color:#7b7474; 
+    color: #0a0a0a;
+}
+
+.btn-secondary:hover {
+    background-color: #0a0a0a;
+    color: white;
+}
